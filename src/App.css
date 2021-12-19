@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --color: rgb(22, 28, 45);
+}
+
+.btn-custom {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.63px;
+  text-transform: uppercase;
+  padding: 23px 30px;
+  box-shadow: rgba(3, 3, 3, 0.12) 0px 32px 54px;
+  border-radius: 50rem;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  user-select: none;
+  transform: perspective(1px) translateZ(0px);
+  position: relative;
+  overflow: hidden;
+  border: none;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  background-color: var(--color);
+  transition: all 0.2s ease-out 0s;
+  outline: none !important;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+  color: #fff;
+  box-shadow: rgba(3, 3, 3, 0.12) 0px 0 0;
+}
+.btn-custom i {
+  font-size: 30px;
+}

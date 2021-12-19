@@ -1,0 +1,49 @@
+.navbar .navbar-nav .nav-link {
+  transition: all 0.4s ease 0s;
+  -webkit-box-align: center;
+  align-items: center;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: var(--color);
+  padding: 18px !important;
+}
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  font-size: 1.5rem;
+  line-height: 1.42;
+  color: var(--color);
+}
+
+.modal-content {
+  background: var(--color);
+}
+.modal-body .row {
+  min-height: 100vh;
+}
+
+.modal-fullscreen .modal-header {
+  border-radius: 0;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  z-index: 9999;
+}
+.modal-header {
+  padding: 0 0;
+  border-bottom: 0 solid #dee2e6;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+.btn-close {
+  width: 1em;
+  height: 1em;
+  padding: 0.25em 0.25em;
+
+  border-radius: 0.25rem;
+  opacity: 1;
+  filter: invert(1);
+}

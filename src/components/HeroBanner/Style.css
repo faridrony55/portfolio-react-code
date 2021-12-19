@@ -1,0 +1,22 @@
+.HeroBanner .row {
+  min-height: 100vh;
+  background-image: url(../../images/hero-pattern.png);
+}
+
+.HeroBanner h1 {
+  font-weight: 700;
+  color: var(--color);
+  margin-bottom: 3rem;
+  letter-spacing: -2.81px;
+  font-size: 80px;
+  line-height: 84px;
+}
+.HeroBanner p {
+  font-size: 0.8125rem;
+  line-height: 1.63;
+  letter-spacing: 1.63px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color);
+  margin-bottom: 10px;
+}
